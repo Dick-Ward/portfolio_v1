@@ -10,7 +10,12 @@ const Splash = () => {
       }}
     >
       <Row style={{ minHeight: "700px" }}>
-        <Col className="splashColumn" sm={{ size: "5", offset: 1 }}>
+        <Col
+          className="splashColumn"
+          xs="4"
+          sm={{ size: "5", offset: 1 }}
+          lg={{ size: "4", offset: 2 }}
+        >
           <div className="splashButtonBox">
             <Button
               outline
@@ -47,7 +52,7 @@ const Splash = () => {
             </Button>
           </div>
         </Col>
-        <Col sm="5" className="splashColumn">
+        <Col xs="8" sm="5" lg="4" className="splashColumn">
           <Row>
             <Col>
               <div className="divOutline socialBar">
