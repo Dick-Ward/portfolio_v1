@@ -3,3 +3,54 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.divOutline {
+  border: solid;
+  border-width: thin;
+  border-color: grey;
+}
+
+.splashColumn {
+  background-color: RGB(27, 28, 29);
+  border: solid;
+  border-width: thin;
+  border-color: grey;
+  color: white;
+}
+
+.splashButton {
+  width: 100px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+.splashHeadline {
+  text-align: right;
+}
+
+.splashByline {
+  text-align: right;
+}
+
+.splashButtonBox {
+  position: absolute;
+  border: solid;
+  border-color: grey;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 233px;
+  margin: auto;
+}
+.splashTextBox {
+  position: absolute;
+  border: solid;
+  border-color: grey;
+  top: 0;
+  right: 0;
+  bottom: 100px;
+  left: 0;
+  height: 100px;
+  margin: auto;
+}
