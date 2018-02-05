@@ -26,10 +26,16 @@ body {
 
 .splashHeadline {
   text-align: right;
+  margin-right: 5px;
+}
+
+.splashIcon {
+  margin-right: 5px;
 }
 
 .splashByline {
   text-align: right;
+  margin-right: 5px;
 }
 
 .splashButtonBox {
@@ -53,4 +59,8 @@ body {
   left: 0;
   height: 100px;
   margin: auto;
+}
+
+.socialBar {
+  text-align: right;
 }

@@ -3,7 +3,12 @@ import { Row, Col, Button } from "reactstrap";
 
 const Splash = () => {
   return (
-    <div style={{ maxWidth: "2000px", margin: "auto" }}>
+    <div
+      style={{
+        maxWidth: "2000px",
+        margin: "auto"
+      }}
+    >
       <Row style={{ minHeight: "700px" }}>
         <Col className="splashColumn" sm={{ size: "5", offset: 1 }}>
           <div className="splashButtonBox">
@@ -43,12 +48,18 @@ const Splash = () => {
           </div>
         </Col>
         <Col sm="5" className="splashColumn">
-          <Row>hi</Row>
+          <Row>
+            <Col>
+              <div className="divOutline socialBar">
+                <i className="fab fa-twitter-square fa-lg splashIcon" />
+                <i className="fab fa-linkedin fa-lg splashIcon" />
+                TheDickWard@gmail.com
+              </div>
+            </Col>
+          </Row>
           <div className="splashTextBox">
             <h1 className="divOutline splashHeadline">Dick Ward</h1>
-            <h5 className="divOutline splashByline">
-              Full-Stack Web Developer
-            </h5>
+            <p className="divOutline splashByline">Full-Stack Web Developer</p>
           </div>
         </Col>
       </Row>
