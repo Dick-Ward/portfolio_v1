@@ -13,12 +13,7 @@ const ProjectList = () => {
   return (
     <div>
       <Row>
-        <Col
-          className="projectCard"
-          xs="12"
-          sm={{ size: "5", offset: 1 }}
-          lg={{ size: "4", offset: 2 }}
-        >
+        <Col className="projectCard" xs="12" sm={{ size: "5", offset: 1 }}>
           <Card style={{ maxWidth: "250px", margin: "auto" }}>
             <CardBody>
               <CardTitle className="text-center">DonorPool</CardTitle>
@@ -38,7 +33,7 @@ const ProjectList = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col className="projectCard" xs="12" sm="5" lg="4">
+        <Col className="projectCard" xs="12" sm="5">
           <Card style={{ maxWidth: "250px", margin: "auto" }}>
             <CardBody>
               <CardTitle className="text-center">Schedulr</CardTitle>
@@ -58,12 +53,7 @@ const ProjectList = () => {
         </Col>
       </Row>
       <Row>
-        <Col
-          className="projectCard"
-          xs="12"
-          sm={{ size: "5", offset: 1 }}
-          lg={{ size: "4", offset: 2 }}
-        >
+        <Col className="projectCard" xs="12" sm={{ size: "5", offset: 1 }}>
           <Card style={{ maxWidth: "250px", margin: "auto" }}>
             <CardBody>
               <CardTitle className="text-center">Peeker</CardTitle>
@@ -81,7 +71,7 @@ const ProjectList = () => {
             </CardBody>
           </Card>
         </Col>
-        <Col className="projectCard" xs="12" sm="5" lg="4">
+        <Col className="projectCard" xs="12" sm="5">
           <Card style={{ maxWidth: "250px", margin: "auto" }}>
             <CardBody>
               <CardTitle className="text-center">H-I-I</CardTitle>

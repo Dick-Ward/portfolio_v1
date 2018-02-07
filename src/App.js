@@ -16,13 +16,7 @@ class App extends Component {
         }}
       >
         <Row>
-          <Col
-            className="divOutline"
-            style={{ margin: "auto" }}
-            xs="12"
-            sm="10"
-            lg="8"
-          >
+          <Col style={{ margin: "auto" }} xs="12" sm="10" lg="8">
             <Splash />
             <Bio />
             <ProjectList />

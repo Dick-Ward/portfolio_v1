@@ -28,10 +28,8 @@ body {
 
 .splashColumn {
   background-color: RGB(27, 28, 29);
-  border: solid;
-  border-width: thin;
-  border-color: grey;
   color: white;
+  border: none;
 }
 
 .splashButton {
@@ -56,8 +54,6 @@ body {
 
 .splashButtonBox {
   position: absolute;
-  border: solid;
-  border-color: grey;
   top: 0;
   right: 0;
   bottom: 0;
@@ -67,8 +63,6 @@ body {
 }
 .splashTextBox {
   position: absolute;
-  border: solid;
-  border-color: grey;
   top: 0;
   right: 0;
   bottom: 100px;

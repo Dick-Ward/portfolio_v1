@@ -44,7 +44,7 @@ const Splash = () => {
       <Col xs="8" sm="6" className="splashColumn">
         <Row>
           <Col>
-            <div className="divOutline socialBar">
+            <div className="socialBar">
               <i className="fab fa-twitter-square fa-lg splashIcon" />
               <i className="fab fa-linkedin fa-lg splashIcon" />
               TheDickWard@gmail.com
@@ -52,8 +52,8 @@ const Splash = () => {
           </Col>
         </Row>
         <div className="splashTextBox">
-          <h1 className="divOutline splashHeadline">Dick Ward</h1>
-          <p className="divOutline splashByline">Full-Stack Web Developer</p>
+          <h1 className="splashHeadline">Dick Ward</h1>
+          <p className="splashByline">Full-Stack Web Developer</p>
         </div>
       </Col>
     </Row>
