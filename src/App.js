@@ -3,6 +3,7 @@ import Splash from "./components/Splash";
 import Bio from "./components/Bio";
 import CurrentProject from "./components/CurrentProject";
 import ProjectList from "./components/ProjectList";
+import PortfolioFooter from "./components/PortfolioFooter";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Bio />
         <ProjectList />
         <CurrentProject />
+        <PortfolioFooter />
       </div>
     );
   }
