@@ -4,6 +4,7 @@ import Bio from "./components/Bio";
 import CurrentProject from "./components/CurrentProject";
 import ProjectList from "./components/ProjectList";
 import PortfolioFooter from "./components/PortfolioFooter";
+import { Row, Col } from "reactstrap";
 
 class App extends Component {
   render() {
@@ -14,11 +15,21 @@ class App extends Component {
           margin: "auto"
         }}
       >
-        <Splash />
-        <Bio />
-        <ProjectList />
-        <CurrentProject />
-        <PortfolioFooter />
+        <Row>
+          <Col
+            className="divOutline"
+            style={{ margin: "auto" }}
+            xs="12"
+            sm="10"
+            lg="8"
+          >
+            <Splash />
+            <Bio />
+            <ProjectList />
+            <CurrentProject />
+            <PortfolioFooter />
+          </Col>
+        </Row>
       </div>
     );
   }

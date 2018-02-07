@@ -6,9 +6,7 @@ import {
   CardTitle,
   CardSubtitle,
   CardBody,
-  CardLink,
-  CardText,
-  CardImg
+  CardLink
 } from "reactstrap";
 
 const ProjectList = () => {
@@ -34,9 +32,9 @@ const ProjectList = () => {
               alt="Placeholder"
             />
             <CardBody>
-              <a href="#">More Info</a> |
-              <a href="#">Github</a> |
-              <a href="#">Live Demo</a>
+              <CardLink href="#">More Info</CardLink> |
+              <CardLink href="#">Github</CardLink> |
+              <CardLink href="#">Live Demo</CardLink>
             </CardBody>
           </Card>
         </Col>
@@ -52,9 +50,9 @@ const ProjectList = () => {
               alt="Placeholder"
             />
             <CardBody>
-              <a href="#">More Info</a> |
-              <a href="#">Github</a> |
-              <a href="#">Live Demo</a>
+              <CardLink href="#">More Info</CardLink> |
+              <CardLink href="#">Github</CardLink> |
+              <CardLink href="#">Live Demo</CardLink>
             </CardBody>
           </Card>
         </Col>
@@ -77,9 +75,9 @@ const ProjectList = () => {
               alt="Placeholder"
             />
             <CardBody>
-              <a href="#">More Info</a> |
-              <a href="#">Github</a> |
-              <a href="#">Live Demo</a>
+              <CardLink href="#">More Info</CardLink> |
+              <CardLink href="#">Github</CardLink> |
+              <CardLink href="#">Live Demo</CardLink>
             </CardBody>
           </Card>
         </Col>
@@ -95,9 +93,9 @@ const ProjectList = () => {
               alt="Placeholder"
             />
             <CardBody>
-              <a href="#">More Info</a> |
-              <a href="#"> Github</a> |
-              <a href="#"> Live Demo</a>
+              <CardLink href="#">More Info</CardLink> |
+              <CardLink href="#"> Github</CardLink> |
+              <CardLink href="#"> Live Demo</CardLink>
             </CardBody>
           </Card>
         </Col>
