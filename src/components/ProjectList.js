@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Row,
-  Col,
-  Card,
-  CardTitle,
-  CardSubtitle,
-  CardBody,
-  CardLink
-} from "reactstrap";
+import { Row, Col, Card, CardSubtitle, CardBody, CardLink } from "reactstrap";
 
 const ProjectList = () => {
   return (
@@ -15,38 +7,36 @@ const ProjectList = () => {
       <Row>
         <Col className="projectCard" xs="12" sm={{ size: "5", offset: 1 }}>
           <Card style={{ maxWidth: "250px", margin: "auto" }}>
-            <CardBody>
-              <CardTitle className="text-center">DonorPool</CardTitle>
-            </CardBody>
+            <h4 className="projectTitle">DonorPool</h4>
+
             <CardSubtitle className="text-center">
-              Ruby | Rails | React | Redux
+              Rails | React | Redux | Bootstrap
             </CardSubtitle>
             <img
               className="projectImage"
-              src="http://via.placeholder.com/150x150"
+              src="http://via.placeholder.com/200x200"
               alt="Placeholder"
             />
-            <CardBody>
-              <CardLink href="#">More Info</CardLink> |
-              <CardLink href="#">Github</CardLink> |
+            <CardBody style={{ textAlign: "center" }}>
+              <CardLink href="#">More Info</CardLink>
               <CardLink href="#">Live Demo</CardLink>
             </CardBody>
           </Card>
         </Col>
         <Col className="projectCard" xs="12" sm="5">
           <Card style={{ maxWidth: "250px", margin: "auto" }}>
-            <CardBody>
-              <CardTitle className="text-center">Schedulr</CardTitle>
-            </CardBody>
-            <CardSubtitle className="text-center">Card subtitle</CardSubtitle>
+            <h4 className="projectTitle">Schedulr</h4>
+
+            <CardSubtitle className="text-center">
+              React | Draggable | Semantic
+            </CardSubtitle>
             <img
               className="projectImage"
-              src="http://via.placeholder.com/150x150"
+              src="http://via.placeholder.com/200x200"
               alt="Placeholder"
             />
-            <CardBody>
-              <CardLink href="#">More Info</CardLink> |
-              <CardLink href="#">Github</CardLink> |
+            <CardBody style={{ textAlign: "center" }}>
+              <CardLink href="#">More Info</CardLink>
               <CardLink href="#">Live Demo</CardLink>
             </CardBody>
           </Card>
@@ -55,37 +45,34 @@ const ProjectList = () => {
       <Row>
         <Col className="projectCard" xs="12" sm={{ size: "5", offset: 1 }}>
           <Card style={{ maxWidth: "250px", margin: "auto" }}>
-            <CardBody>
-              <CardTitle className="text-center">Peeker</CardTitle>
-            </CardBody>
-            <CardSubtitle className="text-center">Card subtitle</CardSubtitle>
+            <h4 className="projectTitle">Peeker</h4>
+            <CardSubtitle className="text-center">
+              Ruby | Rails | Clarifai API
+            </CardSubtitle>
             <img
               className="projectImage"
-              src="http://via.placeholder.com/150x150"
+              src="http://via.placeholder.com/200x200"
               alt="Placeholder"
             />
-            <CardBody>
-              <CardLink href="#">More Info</CardLink> |
-              <CardLink href="#">Github</CardLink> |
-              <CardLink href="#">Live Demo</CardLink>
+            <CardBody style={{ textAlign: "center" }}>
+              <CardLink href="#">More Info</CardLink>
             </CardBody>
           </Card>
         </Col>
         <Col className="projectCard" xs="12" sm="5">
           <Card style={{ maxWidth: "250px", margin: "auto" }}>
-            <CardBody>
-              <CardTitle className="text-center">H-I-I</CardTitle>
-            </CardBody>
-            <CardSubtitle className="text-center">Card subtitle</CardSubtitle>
+            <h4 className="projectTitle">H-I-I</h4>
+
+            <CardSubtitle className="text-center">
+              Ruby | NYC Open Data API
+            </CardSubtitle>
             <img
               className="projectImage"
-              src="http://via.placeholder.com/150x150"
+              src="http://via.placeholder.com/200x200"
               alt="Placeholder"
             />
-            <CardBody>
-              <CardLink href="#">More Info</CardLink> |
-              <CardLink href="#"> Github</CardLink> |
-              <CardLink href="#"> Live Demo</CardLink>
+            <CardBody style={{ textAlign: "center" }}>
+              <CardLink href="#">More Info</CardLink>
             </CardBody>
           </Card>
         </Col>
