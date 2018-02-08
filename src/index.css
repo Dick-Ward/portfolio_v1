@@ -4,6 +4,14 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
+.clickable:hover {
+  cursor: pointer;
+}
+
+.clickable {
+  color: blue;
+}
+
 .divOutline {
   border: solid;
   border-width: thin;
