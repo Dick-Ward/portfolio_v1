@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectModal from "./ProjectModal";
 import {
   Button,
   Row,
@@ -13,7 +14,7 @@ class ProjectList extends React.Component {
   state = { selectedProject: null };
 
   handleClick = event => {
-    console.log("click");
+    console.log(event.target.id);
   };
 
   render() {
@@ -33,7 +34,12 @@ class ProjectList extends React.Component {
                 alt="Placeholder"
               />
               <CardBody style={{ textAlign: "center" }}>
-                <Button outline color="info" onClick={this.handleClick}>
+                <Button
+                  id="DonorPool"
+                  outline
+                  color="info"
+                  onClick={this.handleClick}
+                >
                   More Info
                 </Button>
                 <Button outline color="info">
@@ -55,7 +61,12 @@ class ProjectList extends React.Component {
                 alt="Placeholder"
               />
               <CardBody style={{ textAlign: "center" }}>
-                <Button outline color="info" onClick={this.handleClick}>
+                <Button
+                  id="Schedulr"
+                  outline
+                  color="info"
+                  onClick={this.handleClick}
+                >
                   More Info
                 </Button>
                 <Button outline color="info">
@@ -78,7 +89,12 @@ class ProjectList extends React.Component {
                 alt="Placeholder"
               />
               <CardBody style={{ textAlign: "center" }}>
-                <Button outline color="info" onClick={this.handleClick}>
+                <Button
+                  id="Peeker"
+                  outline
+                  color="info"
+                  onClick={this.handleClick}
+                >
                   More Info
                 </Button>
               </CardBody>
@@ -97,7 +113,12 @@ class ProjectList extends React.Component {
                 alt="Placeholder"
               />
               <CardBody style={{ textAlign: "center" }}>
-                <Button outline color="info" onClick={this.handleClick}>
+                <Button
+                  id="H-I-I"
+                  outline
+                  color="info"
+                  onClick={this.handleClick}
+                >
                   More Info
                 </Button>
               </CardBody>
