@@ -4,7 +4,7 @@ import { Row, Col, Button } from "reactstrap";
 const Splash = () => {
   return (
     <Row style={{ minHeight: "800px" }}>
-      <Col className="splashColumn" xs="4" sm="6">
+      <Col className="splashColumn" xs="5" sm="6">
         <div className="splashButtonBox">
           <Button
             outline
@@ -41,7 +41,7 @@ const Splash = () => {
           </Button>
         </div>
       </Col>
-      <Col xs="8" sm="6" className="splashColumn">
+      <Col xs="7" sm="6" className="splashColumn">
         <Row>
           <Col>
             <div className="socialBar">

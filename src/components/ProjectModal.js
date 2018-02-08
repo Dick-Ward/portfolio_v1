@@ -18,12 +18,17 @@ const ProjectModal = props => {
     </Button>
   ));
 
-  console.log(projectLinks);
-
   return (
     <Modal toggle={props.handleClose} isOpen={props.modalOpen}>
       <div>
         <ModalHeader>{projectInfo.name}</ModalHeader>
+        <div className="modalImageContainer">
+          <img
+            className="modalImage"
+            src="http://via.placeholder.com/400x200"
+            alt="placeholder"
+          />
+        </div>
         <ModalBody>{projectInfo.description}</ModalBody>
       </div>
 

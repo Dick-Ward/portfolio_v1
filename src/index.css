@@ -24,6 +24,16 @@ body {
   color: white;
 }
 
+.modalImage {
+  width: 400px;
+  margin: auto;
+}
+
+.modalImageContainer {
+  width: 400px;
+  margin: auto;
+}
+
 .projectCard {
   margin: 5px;
 }
@@ -52,17 +62,23 @@ body {
 }
 
 .splashHeadline {
+  font-size: 4em;
   text-align: right;
   margin-right: 5px;
+  border-bottom: solid;
+  border-width: medium;
+  border-color: RGB(37, 162, 183);
 }
 
 .splashIcon {
   margin-right: 5px;
+  color: RGB(37, 162, 183);
 }
 
 .splashByline {
   text-align: right;
   margin-right: 5px;
+  font-size: 1.5em;
 }
 
 .splashButtonBox {
@@ -119,4 +135,25 @@ body {
   font-size: 1.25em;
   padding: 0 0.25em;
   background: white;
+}
+
+@media screen and (max-width: 400px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  .modalImage {
+    width: 300px;
+    margin: auto;
+  }
+  .modalImageContainer {
+    width: 300px;
+    margin: auto;
+  }
+  .splashHeadline {
+    font-size: 3em;
+  }
+  .splashByline {
+    font-size: 1em;
+  }
+  .socialBar {
+    font-size: 0.8em;
+  }
 }
