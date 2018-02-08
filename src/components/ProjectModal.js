@@ -7,7 +7,13 @@ const ProjectModal = props => {
     project => project.name === props.selectedProject
   );
   const projectLinks = projectInfo.links.map(link => (
-    <Button key={link.text} color="info">
+    <Button
+      style={{ marginLeft: "0", marginRight: "10px", marginTop: "10px" }}
+      key={link.text}
+      href={link.address}
+      target="_blank"
+      color="info"
+    >
       {link.text}
     </Button>
   ));
@@ -21,7 +27,9 @@ const ProjectModal = props => {
         <ModalBody>{projectInfo.description}</ModalBody>
       </div>
 
-      <ModalFooter style={{ margin: "auto" }}>{projectLinks}</ModalFooter>
+      <ModalFooter style={{ margin: "auto", display: "inline-block" }}>
+        {projectLinks}
+      </ModalFooter>
     </Modal>
   );
 };

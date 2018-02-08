@@ -3,13 +3,13 @@ import React from "react";
 const Bio = () => {
   return (
     <div className="textBox">
-      Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
-      legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu
-      eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert
-      ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat
-      falli consulatu at vis. Te facilisis mnesarchum qui posse omnium
-      mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei
-      mea falli legere efficiantur et tollit aliquip debitis mei.
+      Full stack web developer with a flair for the theatrical and a mission to
+      leave the world a better place than I got it. Experienced in Rails and
+      Javascript programming including React and Redux. I discovered web
+      development while customizing a professional website for myself, and got
+      hooked on the problem solving and creativity of programming. My background
+      in improvisation helps me to bring a team-based work ethic to anything I
+      do.
     </div>
   );
 };

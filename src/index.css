@@ -99,6 +99,7 @@ body {
 /* based on code example from https://css-tricks.com/examples/hrs/ */
 
 .currentProjectsLine {
+  margin-top: 50px;
   text-align: center;
   border: 0;
   height: 1px;
