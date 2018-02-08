@@ -5,7 +5,7 @@ export const projects = [
     tech: "React, Redux, JavaScript, Rails, Ruby, Bootstrap, AWS",
     repoFront: "https://github.com/Gonzodamus/DonorPool-client",
     repoBack: "https://github.com/Gonzodamus/backend-DonorPool",
-    repoFull: "",
+    repoFull: null,
     liveDemo: "https://powerful-savannah-20154.herokuapp.com/",
     image: "http://via.placeholder.com/200x200"
   },
@@ -15,7 +15,7 @@ export const projects = [
     tech: "React, React Draggable, JavaScript, Rails, Ruby, Semantic UI",
     repoFront: "https://github.com/Gonzodamus/schedulr-client",
     repoBack: "https://github.com/Gonzodamus/schedulr-backend",
-    repoFull: "",
+    repoFull: null,
     liveDemo: "https://dashboard.heroku.com/apps/fathomless-forest-91982",
     image: "http://via.placeholder.com/200x200"
   },

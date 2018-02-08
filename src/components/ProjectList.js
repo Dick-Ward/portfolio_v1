@@ -1,25 +1,25 @@
 import React from "react";
 import ProjectModal from "./ProjectModal";
-import {
-  Button,
-  Row,
-  Col,
-  Card,
-  CardSubtitle,
-  CardBody,
-  CardLink
-} from "reactstrap";
+import { Button, Row, Col, Card, CardSubtitle, CardBody } from "reactstrap";
 
 class ProjectList extends React.Component {
   state = { selectedProject: null };
 
-  handleClick = event => {
-    console.log(event.target.id);
+  handleSelect = event => {
+    this.setState({ selectedProject: event.target.id });
+  };
+
+  handleClose = () => {
+    this.setState({ selectedProject: null });
   };
 
   render() {
     return (
       <div>
+        <ProjectModal
+          selectedProject={this.state.selectedProject}
+          handleClose={this.handleClose}
+        />
         <Row>
           <Col className="projectCard" xs="12" sm={{ size: "5", offset: 1 }}>
             <Card style={{ maxWidth: "250px", margin: "auto" }}>
@@ -38,7 +38,7 @@ class ProjectList extends React.Component {
                   id="DonorPool"
                   outline
                   color="info"
-                  onClick={this.handleClick}
+                  onClick={this.handleSelect}
                 >
                   More Info
                 </Button>
@@ -65,7 +65,7 @@ class ProjectList extends React.Component {
                   id="Schedulr"
                   outline
                   color="info"
-                  onClick={this.handleClick}
+                  onClick={this.handleSelect}
                 >
                   More Info
                 </Button>
@@ -93,7 +93,7 @@ class ProjectList extends React.Component {
                   id="Peeker"
                   outline
                   color="info"
-                  onClick={this.handleClick}
+                  onClick={this.handleSelect}
                 >
                   More Info
                 </Button>
@@ -117,7 +117,7 @@ class ProjectList extends React.Component {
                   id="H-I-I"
                   outline
                   color="info"
-                  onClick={this.handleClick}
+                  onClick={this.handleSelect}
                 >
                   More Info
                 </Button>
