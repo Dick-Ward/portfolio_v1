@@ -3,14 +3,17 @@ import ProjectModal from "./ProjectModal";
 import { Button, Row, Col, Card, CardSubtitle, CardBody } from "reactstrap";
 
 class ProjectList extends React.Component {
-  state = { selectedProject: null };
+  state = {
+    selectedProject: "DonorPool",
+    modalOpen: false
+  };
 
   handleSelect = event => {
-    this.setState({ selectedProject: event.target.id });
+    this.setState({ selectedProject: event.target.id, modalOpen: true });
   };
 
   handleClose = () => {
-    this.setState({ selectedProject: null });
+    this.setState({ modalOpen: false });
   };
 
   render() {
@@ -19,6 +22,7 @@ class ProjectList extends React.Component {
         <ProjectModal
           selectedProject={this.state.selectedProject}
           handleClose={this.handleClose}
+          modalOpen={this.state.modalOpen}
         />
         <Row>
           <Col className="projectCard" xs="12" sm={{ size: "5", offset: 1 }}>
