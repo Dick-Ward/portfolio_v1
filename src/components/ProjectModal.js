@@ -7,10 +7,9 @@ const ProjectModal = props => {
   const projectInfo = projects.find(
     project => project.name === props.selectedProject
   );
-  console.log(projectInfo);
 
   return (
-    <Modal onClick={props.handleClose} isOpen={open}>
+    <Modal toggle={props.handleClose} isOpen={open}>
       {open ? (
         <div>
           <ModalHeader>{projectInfo.name}</ModalHeader>
@@ -19,14 +18,21 @@ const ProjectModal = props => {
       ) : (
         ""
       )}
-      <ModalFooter>
+      <ModalFooter style={{ margin: "auto" }}>
         {open && projectInfo.repoFull ? (
-          <Button>Github</Button>
+          <Button color="info">View on Github</Button>
         ) : (
           <div>
-            <Button>Back-end Github</Button>
-            <Button>Front-end Github</Button>
+            <Button color="info" style={{ marginRight: "8px" }}>
+              Back-end Github
+            </Button>
+            <Button color="info">Front-end Github</Button>
           </div>
+        )}
+        {open && projectInfo.liveDemo ? (
+          <Button color="info">Live Demo</Button>
+        ) : (
+          ""
         )}
       </ModalFooter>
     </Modal>

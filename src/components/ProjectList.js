@@ -114,7 +114,7 @@ class ProjectList extends React.Component {
               />
               <CardBody style={{ textAlign: "center" }}>
                 <Button
-                  id="H-I-I"
+                  id="HII - The Health Inspection Inspector"
                   outline
                   color="info"
                   onClick={this.handleSelect}
