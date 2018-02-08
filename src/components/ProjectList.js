@@ -18,7 +18,7 @@ class ProjectList extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="projects">
         <ProjectModal
           selectedProject={this.state.selectedProject}
           handleClose={this.handleClose}
