@@ -4,7 +4,12 @@ import { Row, Col } from "reactstrap";
 const PortfolioFooter = () => {
   return (
     <Row className="footerText">
-      <Col>&copy; 2018 Dick Ward | TheDickWard@gmail.com</Col>
+      <Col>
+        &copy; 2018 Dick Ward |{" "}
+        <a href="mailto:TheDickWard@gmail.com" style={{ color: "white" }}>
+          TheDickWard@gmail.com
+        </a>
+      </Col>
     </Row>
   );
 };

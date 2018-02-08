@@ -52,12 +52,15 @@ const Splash = () => {
         <Row>
           <Col>
             <div className="socialBar">
-              <i
-                href="www.linkedin.com/in/Dick-Ward"
-                className="fab fa-twitter-square fa-lg splashIcon"
-              />
-              <i className="fab fa-linkedin fa-lg splashIcon" />
-              TheDickWard@gmail.com
+              <a href="http://www.twitter.com/TheDickWard" target="_blank">
+                <i className="fab fa-twitter-square fa-lg splashIcon" />
+              </a>
+              <a href="http://www.linkedin.com/in/Dick-Ward" target="_blank">
+                <i className="fab fa-linkedin fa-lg splashIcon" />
+              </a>
+              <a href="mailto:TheDickWard@gmail.com" style={{ color: "white" }}>
+                TheDickWard@gmail.com
+              </a>
             </div>
           </Col>
         </Row>

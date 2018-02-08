@@ -46,7 +46,12 @@ class ProjectList extends React.Component {
                 >
                   More Info
                 </Button>
-                <Button outline color="info">
+                <Button
+                  href="https://powerful-savannah-20154.herokuapp.com/"
+                  target="_blank"
+                  outline
+                  color="info"
+                >
                   Live Demo
                 </Button>
               </CardBody>
@@ -73,7 +78,12 @@ class ProjectList extends React.Component {
                 >
                   More Info
                 </Button>
-                <Button outline color="info">
+                <Button
+                  href="https://dashboard.heroku.com/apps/fathomless-forest-91982"
+                  target="_blank"
+                  outline
+                  color="info"
+                >
                   Live Demo
                 </Button>
               </CardBody>
