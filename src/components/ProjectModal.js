@@ -6,6 +6,8 @@ const ProjectModal = props => {
   const projectInfo = projects.find(
     project => project.name === props.selectedProject
   );
+  const techUsed = projectInfo.tech.map(technology => <li>{technology}</li>);
+
   const projectLinks = projectInfo.links.map(link => (
     <Button
       style={{ marginLeft: "0", marginRight: "10px", marginTop: "10px" }}
@@ -30,9 +32,11 @@ const ProjectModal = props => {
             alt="placeholder"
           />
         </div>
-        <ModalBody>{projectInfo.description}</ModalBody>
+        <ModalBody>
+          <p>{projectInfo.description}</p>
+          {techUsed}
+        </ModalBody>
       </div>
-
       <ModalFooter style={{ margin: "auto", display: "inline-block" }}>
         {projectLinks}
       </ModalFooter>
