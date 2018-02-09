@@ -23,6 +23,7 @@ const Splash = () => {
             className="splashButton"
             href="https://s3.amazonaws.com/dickwardportfolio/Dick+Ward+Resume.pdf"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Resume
           </Button>
@@ -33,6 +34,7 @@ const Splash = () => {
             className="splashButton"
             href="https://github.com/Gonzodamus/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Github
           </Button>
@@ -43,6 +45,7 @@ const Splash = () => {
             className="splashButton"
             href="https://medium.com/@TheDickWard/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Blog
           </Button>
@@ -52,10 +55,18 @@ const Splash = () => {
         <Row>
           <Col>
             <div className="socialBar">
-              <a href="http://www.twitter.com/TheDickWard" target="_blank">
+              <a
+                href="http://www.twitter.com/TheDickWard"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-twitter-square fa-lg splashIcon" />
               </a>
-              <a href="http://www.linkedin.com/in/Dick-Ward" target="_blank">
+              <a
+                href="http://www.linkedin.com/in/Dick-Ward"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fab fa-linkedin fa-lg splashIcon" />
               </a>
               <a href="mailto:TheDickWard@gmail.com" style={{ color: "white" }}>

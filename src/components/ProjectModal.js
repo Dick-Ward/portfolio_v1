@@ -12,6 +12,7 @@ const ProjectModal = props => {
       key={link.text}
       href={link.address}
       target="_blank"
+      rel="noopener noreferrer"
       color="info"
     >
       {link.text}
