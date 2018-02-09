@@ -84,7 +84,7 @@ class ProjectList extends React.Component {
                   More Info
                 </Button>
                 <Button
-                  href="https://dashboard.heroku.com/apps/fathomless-forest-91982"
+                  href="https://fathomless-forest-91982.herokuapp.com/"
                   target="_blank"
                   outline
                   color="info"
