@@ -33,9 +33,11 @@ class ProjectList extends React.Component {
                 Rails | React | Redux | Bootstrap
               </CardSubtitle>
               <img
+                onClick={this.handleSelect}
+                id="DonorPool"
                 className="projectImage"
-                src="http://via.placeholder.com/200x200"
-                alt="Placeholder"
+                src="https://s3.amazonaws.com/dickwardportfolio/DonorPoolSquare.png"
+                alt="DonorPool Screenshot"
               />
               <CardBody style={{ textAlign: "center" }}>
                 <Button
@@ -65,9 +67,11 @@ class ProjectList extends React.Component {
                 React | Draggable | Semantic
               </CardSubtitle>
               <img
+                id="Schedulr"
+                onClick={this.handleSelect}
                 className="projectImage"
-                src="http://via.placeholder.com/200x200"
-                alt="Placeholder"
+                src="https://s3.amazonaws.com/dickwardportfolio/Schedulr+Square.png"
+                alt="Schedulr Screenshot"
               />
               <CardBody style={{ textAlign: "center" }}>
                 <Button
@@ -98,9 +102,11 @@ class ProjectList extends React.Component {
                 Ruby | Rails | Clarifai API
               </CardSubtitle>
               <img
+                id="Peeker"
+                onClick={this.handleSelect}
                 className="projectImage"
-                src="http://via.placeholder.com/200x200"
-                alt="Placeholder"
+                src="https://s3.amazonaws.com/dickwardportfolio/PeekrSquare.png"
+                alt="Peeker Screenshot"
               />
               <CardBody style={{ textAlign: "center" }}>
                 <Button
@@ -122,9 +128,11 @@ class ProjectList extends React.Component {
                 Ruby | NYC Open Data API
               </CardSubtitle>
               <img
+                id="HII - The Health Inspection Inspector"
+                onClick={this.handleSelect}
                 className="projectImage"
-                src="http://via.placeholder.com/200x200"
-                alt="Placeholder"
+                src="https://s3.amazonaws.com/dickwardportfolio/HIISquare.png"
+                alt="H-I-I Screenshot"
               />
               <CardBody style={{ textAlign: "center" }}>
                 <Button

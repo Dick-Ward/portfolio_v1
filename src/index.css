@@ -9,7 +9,7 @@ body {
 }
 
 .clickable {
-  color: blue;
+  color: RGB(37, 162, 183);
 }
 
 .divOutline {
@@ -27,10 +27,14 @@ body {
 .modalImage {
   width: 400px;
   margin: auto;
+  border: solid;
+  border-width: thin;
+  border-radius: 10px;
 }
 
 .modalImageContainer {
   width: 400px;
+  padding-top: 10px;
   margin: auto;
 }
 
@@ -38,10 +42,18 @@ body {
   margin: 5px;
 }
 
+.projectImage:hover {
+  cursor: pointer;
+}
+
 .projectImage {
   max-width: 200px;
   max-height: 200px;
   margin: auto;
+  border: solid;
+  border-width: thin;
+  border-radius: 10px;
+  border-color: RGB(37, 162, 183);
 }
 
 .projectTitle {
@@ -145,6 +157,7 @@ body {
   }
   .modalImageContainer {
     width: 300px;
+    padding-top: 10px;
     margin: auto;
   }
   .splashHeadline {

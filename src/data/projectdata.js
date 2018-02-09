@@ -17,7 +17,7 @@ export const projects = [
         address: "https://powerful-savannah-20154.herokuapp.com/"
       }
     ],
-    image: "http://via.placeholder.com/200x200"
+    image: "https://s3.amazonaws.com/dickwardportfolio/DonorPoolWide.png"
   },
   {
     name: "Schedulr",
@@ -34,10 +34,10 @@ export const projects = [
       },
       {
         text: "Live Demo",
-        address: "https://dashboard.heroku.com/apps/fathomless-forest-91982"
+        address: "https://fathomless-forest-91982.herokuapp.com/"
       }
     ],
-    image: "http://via.placeholder.com/200x200"
+    image: "https://s3.amazonaws.com/dickwardportfolio/SchedulrWide.png"
   },
   {
     name: "Peeker",
@@ -51,7 +51,7 @@ export const projects = [
       }
     ],
 
-    image: "http://via.placeholder.com/200x200"
+    image: "https://s3.amazonaws.com/dickwardportfolio/PeekrWide.png"
   },
   {
     name: "HII - The Health Inspection Inspector",
@@ -66,6 +66,6 @@ export const projects = [
       }
     ],
     liveDemo: "",
-    image: "http://via.placeholder.com/200x200"
+    image: "https://s3.amazonaws.com/dickwardportfolio/HIIWide.png"
   }
 ];

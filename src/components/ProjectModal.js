@@ -26,7 +26,7 @@ const ProjectModal = props => {
         <div className="modalImageContainer">
           <img
             className="modalImage"
-            src="http://via.placeholder.com/400x200"
+            src={projectInfo.image}
             alt="placeholder"
           />
         </div>
