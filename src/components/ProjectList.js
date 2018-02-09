@@ -18,7 +18,8 @@ class ProjectList extends React.Component {
 
   render() {
     return (
-      <div id="projects">
+      <div id="projects" style={{ paddingTop: "20px" }}>
+        <hr className="projectsLine" />
         <ProjectModal
           selectedProject={this.state.selectedProject}
           handleClose={this.handleClose}

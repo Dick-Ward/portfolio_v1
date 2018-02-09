@@ -3,7 +3,7 @@ import { Row, Col, Button } from "reactstrap";
 
 const Splash = () => {
   return (
-    <Row style={{ minHeight: "800px" }}>
+    <Row style={{ minHeight: "800px" }} className="splashBack">
       <Col className="splashColumn" xs="5" sm="6">
         <div className="splashButtonBox">
           <Button

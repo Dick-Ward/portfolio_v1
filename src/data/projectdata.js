@@ -63,6 +63,10 @@ export const projects = [
         text: "View on Github",
         address:
           "https://github.com/Gonzodamus/module-one-final-project-guidelines-web-100817"
+      },
+      {
+        text: "View Demo on YouTube",
+        address: "https://www.youtube.com/watch?v=3XcI1QN2a9c"
       }
     ],
     liveDemo: "",
