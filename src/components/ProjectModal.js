@@ -35,8 +35,10 @@ const ProjectModal = props => {
           />
         </div>
         <ModalBody>
-          <p>{projectInfo.description}</p>
-          {techUsed}
+          <p style={{ textAlign: "center" }}>{projectInfo.description}</p>
+
+          <ul>Technologies Used:</ul>
+          <ul className="techList">{techUsed}</ul>
         </ModalBody>
       </div>
       <ModalFooter style={{ margin: "auto", display: "inline-block" }}>

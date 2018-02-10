@@ -116,6 +116,11 @@ body {
   text-align: right;
 }
 
+.techList {
+  column-count: 2;
+  list-style-position: inside;
+}
+
 .textBox {
   margin: auto;
   margin-left: 2%;
