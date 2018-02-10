@@ -31,7 +31,17 @@ class App extends Component {
           <Button href="#top" outline color="info" className="buttonUp">
             <i className="fas fa-angle-double-up fa-3x" />
           </Button>
-        ) : null}
+        ) : (
+          <Button
+            style={{ visibility: "hidden" }}
+            href="#top"
+            outline
+            color="info"
+            className="buttonUp"
+          >
+            <i className="fas fa-angle-double-up fa-3x" />
+          </Button>
+        )}
         <Row>
           <Col style={{ margin: "auto" }} xs="12" sm="10" lg="8">
             <Splash />
