@@ -1,16 +1,15 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
 
 const PortfolioFooter = () => {
   return (
-    <Row className="footerText">
-      <Col>
-        &copy; 2018 Dick Ward |{" "}
+    <div className="footerText">
+      This site created with React, Bootstrap, Custom CSS and AWS
+      <span style={{ float: "right" }}>
         <a href="mailto:TheDickWard@gmail.com" style={{ color: "white" }}>
           TheDickWard@gmail.com
         </a>
-      </Col>
-    </Row>
+      </span>
+    </div>
   );
 };
 

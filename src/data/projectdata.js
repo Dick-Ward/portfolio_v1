@@ -2,7 +2,16 @@ export const projects = [
   {
     name: "DonorPool",
     description: "A social network based around charitable giving.",
-    tech: ["React", "Redux", "JavaScript", "Rails", "Ruby", "Bootstrap", "AWS"],
+    tech: [
+      "React",
+      "Redux",
+      "JavaScript",
+      "Rails",
+      "Ruby",
+      "Bootstrap",
+      "CSS",
+      "AWS"
+    ],
     links: [
       {
         text: "Front-End Repo",
