@@ -11,6 +11,15 @@ const Splash = () => {
             color="info"
             style={{ display: "block" }}
             className="splashButton"
+            href="#bio"
+          >
+            About Me
+          </Button>
+          <Button
+            outline
+            color="info"
+            style={{ display: "block" }}
+            className="splashButton"
             href="#projects"
           >
             Projects

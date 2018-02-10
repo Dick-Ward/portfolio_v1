@@ -6,7 +6,9 @@ const ProjectModal = props => {
   const projectInfo = projects.find(
     project => project.name === props.selectedProject
   );
-  const techUsed = projectInfo.tech.map(technology => <li>{technology}</li>);
+  const techUsed = projectInfo.tech.map(technology => (
+    <li key={technology}>{technology}</li>
+  ));
 
   const projectLinks = projectInfo.links.map(link => (
     <Button
