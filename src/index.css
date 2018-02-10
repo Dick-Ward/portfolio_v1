@@ -141,7 +141,7 @@ body {
   margin-top: 50px;
   text-align: center;
   border: 0;
-  height: 1px;
+  height: 2px;
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0),
@@ -154,7 +154,7 @@ body {
   content: "Currently Working On";
   display: inline-block;
   position: relative;
-  top: -0.9em;
+  top: -0.7em;
   font-size: 1.25em;
   padding: 0 0.25em;
   background: white;
@@ -163,7 +163,7 @@ body {
   margin-bottom: 30px;
   text-align: center;
   border: 0;
-  height: 1px;
+  height: 2px;
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0),
@@ -176,7 +176,7 @@ body {
   content: "Projects";
   display: inline-block;
   position: relative;
-  top: -0.9em;
+  top: -0.7em;
   font-size: 1.25em;
   padding: 0 0.25em;
   background: white;
@@ -185,7 +185,7 @@ body {
   margin-bottom: 30px;
   text-align: center;
   border: 0;
-  height: 1px;
+  height: 2px;
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0),
@@ -198,7 +198,7 @@ body {
   content: "About Me";
   display: inline-block;
   position: relative;
-  top: -0.9em;
+  top: -0.7em;
   font-size: 1.25em;
   padding: 0 0.25em;
   background: white;
