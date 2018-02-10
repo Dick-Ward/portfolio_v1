@@ -4,6 +4,12 @@ body {
   font-family: "Roboto", sans-serif !important;
 }
 
+.buttonUp {
+  position: fixed;
+  right: 5%;
+  bottom: 3%;
+}
+
 .clickable:hover {
   cursor: pointer;
 }
