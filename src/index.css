@@ -210,6 +210,7 @@ body {
 
 @media screen and (max-width: 400px) {
   /* comes into effect for screens less than or equal to 320 pixels */
+
   .modalImage {
     width: 300px;
     margin: auto;
