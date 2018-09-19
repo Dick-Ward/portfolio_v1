@@ -70,22 +70,22 @@ export const projects = [
     image: "https://s3.amazonaws.com/dickwardportfolio/PeekrWide.png"
   },
   {
-    name: "HII - The Health Inspection Inspector",
+    name: "Flatiron Field Day",
     description:
-      "Uses NYC Open Data to identify restaurants with health code violations, rat problems, and more.",
-    tech: ["Ruby", "ActiveRecord", "NYC Open Data API"],
+      "An interactive coding experience based on Reddit's /r/place",
+    tech: ["JavaScript", "Canvas", "CSS", "Websockets"],
     links: [
       {
         text: "View on Github",
         address:
-          "https://github.com/Gonzodamus/module-one-final-project-guidelines-web-100817"
+          "https://github.com/DanielSeehausen/fi-field-day"
       },
       {
-        text: "View Demo on YouTube",
-        address: "https://www.youtube.com/watch?v=3XcI1QN2a9c"
+        text: "Read About Flatiron Field Day",
+        address: "https://medium.com/@TheDickWard/creating-a-fabulous-frontend-for-flatiron-field-day-9d0b09a6a652"
       }
     ],
     liveDemo: "",
-    image: "https://s3.amazonaws.com/dickwardportfolio/HIIWide.png"
+    image: "https://s3.amazonaws.com/dickwardportfolio/Field+Day+Movement+Mini.gif"
   }
 ];
