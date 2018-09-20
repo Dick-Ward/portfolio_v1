@@ -6,7 +6,7 @@ const CurrentProject = () => {
       <hr className="currentProjectsLine" />
       <div className="textBox">
         <p>
-          I just finished launching <a href="https://medium.com/@TheDickWard/creating-a-fabulous-frontend-for-flatiron-field-day-9d0b09a6a652">Flatiron Field Day</a>, which was an all-day mini hackathon for our web development students.
+          I just finished launching a project called <a href="https://medium.com/@TheDickWard/creating-a-fabulous-frontend-for-flatiron-field-day-9d0b09a6a652">Flatiron Field Day</a>, which was an all-day mini hackathon for our web development students.
           My 15-person team and I were able to create a stable project that was met with high praise by all the
           students that participated.
         </p>
