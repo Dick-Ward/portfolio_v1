@@ -3,27 +3,17 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif !important;
 }
-
 .buttonUp {
   position: fixed;
   right: 5%;
   bottom: 3%;
 }
-
 .clickable:hover {
   cursor: pointer;
 }
-
 .clickable {
   color: RGB(37, 162, 183);
 }
-
-.divOutline {
-  border: solid;
-  border-width: thin;
-  border-color: grey;
-}
-
 .footerText {
   background-color: RGB(27, 28, 29);
   color: white;
@@ -31,7 +21,6 @@ body {
   padding-left: 5px;
   padding-right: 5px;
 }
-
 .modalImage {
   width: 400px;
   margin: auto;
@@ -39,22 +28,18 @@ body {
   border-width: thin;
   border-radius: 5px;
 }
-
 .modalImageContainer {
   width: 400px;
   padding-top: 10px;
   margin: auto;
 }
-
 .projectCard {
   margin: 5px;
   margin-top: 20px;
 }
-
 .projectImage:hover {
   cursor: pointer;
 }
-
 .projectImage {
   max-width: 200px;
   max-height: 200px;
@@ -64,24 +49,15 @@ body {
   border-radius: 5px;
   border-color: RGB(37, 162, 183);
 }
-
 .projectTitle {
   text-align: center;
   margin-top: 10px;
 }
-
 .splashColumn {
   background-color: RGB(27, 28, 29);
   color: white;
   border: none;
 }
-
-.splashButton {
-  width: 100px;
-  margin-bottom: 25px;
-  margin-left: 20px;
-}
-
 .splashHeadline {
   font-size: 4em;
   text-align: right;
@@ -90,25 +66,26 @@ body {
   border-width: medium;
   border-color: RGB(37, 162, 183);
 }
-
 .splashIcon {
   margin-right: 5px;
   color: RGB(37, 162, 183);
 }
-
 .splashByline {
   text-align: right;
   margin-right: 5px;
   font-size: 1.5em;
 }
-
+.splashButton {
+  width: 80%;
+  height: 40%;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
 .splashButtonBox {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: 10%;
   height: 300px;
+  width: 90%;
   margin: auto;
 }
 .splashTextBox {
@@ -120,16 +97,13 @@ body {
   height: 100px;
   margin: auto;
 }
-
 .socialBar {
   text-align: right;
 }
-
 .techList {
   column-count: 2;
   list-style-position: inside;
 }
-
 .textBox {
   margin: auto;
   margin-left: 2%;
@@ -209,8 +183,10 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-  /* comes into effect for screens less than or equal to 320 pixels */
-
+  /* comes into effect for screens less than or equal to 400 pixels */
+  .buttonUp {
+    visibility: hidden;
+  }
   .modalImage {
     width: 300px;
     margin: auto;
@@ -222,6 +198,11 @@ body {
   }
   .splashHeadline {
     font-size: 3em;
+  }
+  .splashButton {
+    width: 100px;
+    margin-bottom: 25px;
+    margin-left: 20px;
   }
   .splashByline {
     font-size: 1em;

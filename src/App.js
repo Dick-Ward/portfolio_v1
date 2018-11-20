@@ -3,7 +3,6 @@ import Splash from "./components/Splash";
 import Bio from "./components/Bio";
 import CurrentProject from "./components/CurrentProject";
 import ProjectList from "./components/ProjectList";
-import PortfolioFooter from "./components/PortfolioFooter";
 import { Row, Col, Button } from "reactstrap";
 
 class App extends Component {
@@ -50,7 +49,6 @@ class App extends Component {
             <Bio />
             <ProjectList />
             <CurrentProject />
-            <PortfolioFooter />
           </Col>
         </Row>
       </div>
